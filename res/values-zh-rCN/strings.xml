@@ -165,6 +165,7 @@
     <string name="toggleMediaPrevious">上一首</string>
     <string name="toggleMediaNext">下一首</string>
     <string name="toggleWimax">4G</string>
+    <string name="toggleISPType">ISP</string>
 <!-- toggle button text end -->
 
     <string name="status_bar_notifycation">通知</string>

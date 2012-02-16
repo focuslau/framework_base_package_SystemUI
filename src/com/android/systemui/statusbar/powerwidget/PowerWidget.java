@@ -61,7 +61,9 @@ public class PowerWidget extends FrameLayout {
                              + BUTTON_DELIMITER + PowerButton.BUTTON_SLEEP
                              + BUTTON_DELIMITER + PowerButton.BUTTON_SCREENTIMEOUT
                              + BUTTON_DELIMITER + PowerButton.BUTTON_AUTOROTATE
-                             + BUTTON_DELIMITER + PowerButton.BUTTON_LOCKSCREEN;
+                             + BUTTON_DELIMITER + PowerButton.BUTTON_LOCKSCREEN
+                             + BUTTON_DELIMITER + PowerButton.BUTTON_ISPTYPE
+                             + BUTTON_DELIMITER + PowerButton.BUTTON_NETWORKMODE;
 
     private static final ViewGroup.LayoutParams WIDGET_LAYOUT_PARAMS = new ViewGroup.LayoutParams(
                                         ViewGroup.LayoutParams.MATCH_PARENT, // width = match_parent
@@ -77,9 +79,8 @@ public class PowerWidget extends FrameLayout {
                                         ViewGroup.LayoutParams.MATCH_PARENT, // width = wrap_content
                                         ViewGroup.LayoutParams.WRAP_CONTENT // height = match_parent
                                         );
-
+	
     private static final int LAYOUT_SCROLL_BUTTON_THRESHOLD = 5;
-
     private Context mContext;
     private LayoutInflater mInflater;
     private WidgetBroadcastReceiver mBroadcastReceiver = null;
@@ -98,6 +99,7 @@ public class PowerWidget extends FrameLayout {
         updateButtonLayoutWidth();
         setupWidget();
         updateVisibility();
+
     }
 
     public void setupWidget() {

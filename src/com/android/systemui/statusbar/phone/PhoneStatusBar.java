@@ -70,6 +70,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.TabHost;
 import android.widget.TabWidget;
+import android.content.pm.ActivityInfo;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

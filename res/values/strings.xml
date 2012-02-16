@@ -421,6 +421,7 @@
     <string name="toggleMediaPrevious">Previous</string>
     <string name="toggleMediaNext">Next</string>
     <string name="toggleWimax">Wimax</string>
+    <string name="toggleISPType">ISPType</string>
 <!-- toggle button text end -->
 
     <string name="status_bar_notifycation">Notifycation</string>

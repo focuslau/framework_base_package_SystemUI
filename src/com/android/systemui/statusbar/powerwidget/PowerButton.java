@@ -45,6 +45,7 @@ public abstract class PowerButton {
     public static final String BUTTON_MOBILEDATA = "toggleMobileData";
     public static final String BUTTON_LOCKSCREEN = "toggleLockScreen";
     public static final String BUTTON_NETWORKMODE = "toggleNetworkMode";
+    public static final String BUTTON_ISPTYPE = "toggleISPType";
     public static final String BUTTON_AUTOROTATE = "toggleAutoRotate";
     public static final String BUTTON_AIRPLANE = "toggleAirplane";
     public static final String BUTTON_FLASHLIGHT = "toggleFlashlight";
@@ -71,9 +72,10 @@ public abstract class PowerButton {
         BUTTONS.put(BUTTON_MOBILEDATA, MobileDataButton.class);
         BUTTONS.put(BUTTON_LOCKSCREEN, LockScreenButton.class);
         BUTTONS.put(BUTTON_NETWORKMODE, NetworkModeButton.class);
+	BUTTONS.put(BUTTON_ISPTYPE, ISPTypeButton.class);
         BUTTONS.put(BUTTON_AUTOROTATE, AutoRotateButton.class);
         BUTTONS.put(BUTTON_AIRPLANE, AirplaneButton.class);
-//        BUTTONS.put(BUTTON_FLASHLIGHT, FlashlightButton.class);
+        /*BUTTONS.put(BUTTON_FLASHLIGHT, FlashlightButton.class);*/
         BUTTONS.put(BUTTON_SLEEP, SleepButton.class);
         BUTTONS.put(BUTTON_MEDIA_PLAY_PAUSE, MediaPlayPauseButton.class);
         BUTTONS.put(BUTTON_MEDIA_PREVIOUS, MediaPreviousButton.class);

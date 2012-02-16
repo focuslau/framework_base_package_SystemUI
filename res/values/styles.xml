@@ -16,6 +16,11 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- "End" button; similar to InCallButton. -->
+    <style name="powerwidgetstype">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
     <style name="TextAppearance.StatusBar.Title" parent="@*android:style/TextAppearance.StatusBar">
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
         <item name="android:textStyle">bold</item>

@@ -16,6 +16,8 @@
 ** See the License for the specific language governing permissions and
 ** limitations under the License.
 */
+LinearLayout
+        android:background="@drawable/toggle_selector"
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -27,7 +29,7 @@
         android:gravity="center"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:background="@drawable/toggle_selector">
+        style="@style/powerwidgetstype">
     <ImageView android:id="@+id/power_widget_button_image"
            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
