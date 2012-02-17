@@ -412,7 +412,7 @@
     <string name="toggleScreenTimeout">Timeout</string>
     <string name="toggleMobileData">Data</string>
     <string name="toggleLockScreen">Lock</string>
-    <string name="toggleNetworkMode">NetworkMode</string>
+    <string name="toggleNetworkMode">DataMode</string>
     <string name="toggleAutoRotate">AutoRotate</string>
     <string name="toggleAirplane">Airplane</string>
     <string name="toggleFlashlight">Flashlight</string>
@@ -421,7 +421,7 @@
     <string name="toggleMediaPrevious">Previous</string>
     <string name="toggleMediaNext">Next</string>
     <string name="toggleWimax">Wimax</string>
-    <string name="toggleISPType">ISPType</string>
+    <string name="toggleISPType">NetworkMode</string>
 <!-- toggle button text end -->
 
     <string name="status_bar_notifycation">Notifycation</string>

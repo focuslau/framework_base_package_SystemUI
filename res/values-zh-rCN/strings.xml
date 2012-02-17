@@ -156,7 +156,7 @@
     <string name="toggleScreenTimeout">屏幕超时</string>
     <string name="toggleMobileData">数据</string>
     <string name="toggleLockScreen">锁屏</string>
-    <string name="toggleNetworkMode">网络模式</string>
+    <string name="toggleNetworkMode">数据模式</string>
     <string name="toggleAutoRotate">旋转</string>
     <string name="toggleAirplane">飞行模式</string>
     <string name="toggleFlashlight">手电筒</string>
@@ -165,7 +165,7 @@
     <string name="toggleMediaPrevious">上一首</string>
     <string name="toggleMediaNext">下一首</string>
     <string name="toggleWimax">4G</string>
-    <string name="toggleISPType">ISP</string>
+    <string name="toggleISPType">网络模式</string>
 <!-- toggle button text end -->
 
     <string name="status_bar_notifycation">通知</string>
